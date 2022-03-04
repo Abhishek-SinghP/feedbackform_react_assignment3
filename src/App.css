@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  text-align: top;
+}
+
+.form-container {
+  background: linear-gradient(90deg, rgba(0,26,36,1) 0%, rgba(68,121,9,1) 35%, rgba(255,59,0,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-container h2 {
+  font-weight: inherit;
+  font-size: 45px;
+  margin: 10px 0;
+  color: rgb(255 224 0);
+  text-shadow: 3px 3px 3px lightgray;
+  cursor: default;
+}
+
+.input-container .sub-container {
+  width: 85%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-container .sub-container span {
+  font-size: 25px;
+  color: white;
+  cursor: default;
+}
+
+.input-container .sub-container input {
+  height: 50px;
+  width: 65%;
+  border-radius: 11px;
+  border: none;
+  font-size: 20px;
+  padding: 0 18px;
+}
+
+.input-container .submit-btn {
+  margin-top: 20px;
+  padding: 10px 40px;
+  border-radius: 11px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.show-details {
+  
+  margin: 30px auto;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.show-details .detail {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 15px 65px;
+  height: 45px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.form-container .back-btn {
+  margin: 30px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px 0;
+  color: white;
+  text-shadow: 3px 3px 3px lightgray;
+  cursor: default;
+}
